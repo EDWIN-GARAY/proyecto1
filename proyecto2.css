@@ -1,0 +1,222 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+table, td{
+    background:  #00051d;
+    padding: 7px;
+    border-collapse:collapse ;
+}
+
+.give{
+    border-radius: 50%;
+    width:100%;
+    height: 100%;
+    animation: hol 3s linear infinite;
+}
+
+ 
+@keyframes hol {
+    0%{
+        transform: rotate(8deg); 
+    }
+    50%{
+        transform: rotate(-8deg); 
+    }
+    100%{
+        transform: rotate(8deg); 
+    }
+}
+
+div{
+   background-color: rgb(255, 255, 255);
+    border-radius: 50%;
+    width:150px;
+    height: 150px;
+}
+
+
+.uno{
+    padding: 0%;
+    background-image: url(cod.gif);;
+}
+
+.dos{
+    background-image: url(cod.gif);
+}
+.doss{
+    
+    margin: 15px;
+    text-align: center; 
+   font-size: 120px;
+   color: white;
+}
+
+.tres{
+    padding: 0;
+    margin: 0;
+}
+
+
+ul{width: 100%;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgb(34, 32, 32);
+}
+li{
+   
+    float: left;
+}
+
+li a{
+    font-family: sans-serif;
+    width: 117.8px;
+    display: block; 
+    color: white;
+    font-size: 20px;
+    text-align: center;
+    padding: 16px 16px;
+    text-decoration: none;
+}
+
+li a:hover:not(.list1){
+    transform: scale(1.2);
+    background-color: rgb(17, 16, 16);
+}
+.do{
+    text-align: center;
+	font: 700 4em/1 "Oswald", sans-serif;
+  	letter-spacing: 0;
+  	padding: .25em 0 .325em;
+	  display: block;
+	  margin: 0 auto;
+  	text-shadow: 0 0 80px rgba(255,255,255,.5);
+
+/* Clip Background Image */
+
+	  background: url(https://i.ibb.co/RDTnNrT/animated-text-fill.png) repeat-y;
+	  -webkit-background-clip: text;
+	  background-clip: text;
+
+/* Animate Background Image */
+
+	  -webkit-text-fill-color: transparent;
+	  -webkit-animation: aitf 80s linear infinite;
+
+/* Activate hardware acceleration for smoother animations */
+
+	  -webkit-transform: translate3d(0,0,0);
+	  -webkit-backface-visibility: hidden;
+
+  }
+
+
+/* Animate Background Image */
+
+@-webkit-keyframes aitf {
+	0% { background-position: 0% 50%; }
+	100% { background-position: 100% 50%; }
+}
+
+.re{ margin: 12px;
+    color: rgb(255, 255, 255);
+    font-size: 30px;
+    font-family:Bahnschrift SemiBold;
+}
+
+.mi{ margin: 20px;
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    font-family:Bahnschrift SemiBold;
+}
+
+.caja{  
+    background: rgb(255, 255, 255);;
+    text-align: center;
+    line-height: 180px;
+    margin: 15px;
+    float: left;
+    font-size: 18px;
+    font-family: Arial;
+    
+    }
+    
+    
+    .caja2{
+        color: rgb(255, 255, 255);
+        opacity: 0.4;
+        background-color: rgb(255, 0, 0);
+    width: 200px;
+    height: 180px;
+    -webkit-transition: font-size 1s ease;
+    -webkit-transition: background-color 2s ease;
+    transition: 1s ease ;
+    }
+    
+    .caja2:hover{
+        opacity: 10;
+    font-size: 25px;
+
+    
+    }
+    .caja3{
+        color: rgb(255, 255, 255);
+      
+        background-color: rgb(98, 10, 133);
+        opacity: 0.4;
+    width: 200px;
+    height: 180px;
+        -webkit-transition: font-size 1s ease;
+        -webkit-transition: background-color 2s ease;
+        transition: 1s ease ;
+        }
+        
+.caja3:hover{
+    opacity: 10;
+     font-size: 25px;
+  
+        
+        }
+
+.caja4{
+    color: rgb(255, 255, 255);
+    opacity: 0.4;
+    background-color: rgb(0, 17, 255);
+    width: 200px;
+    height: 180px;
+   -webkit-transition: font-size 1s ease;
+   -webkit-transition: background-color 2s ease;
+   transition: 1s ease ;
+            }
+            
+            .caja4:hover{
+           opacity: 10;
+            font-size: 25px;
+        
+            }
+    
+.duko{
+    
+    font-size:40px;
+}
+
+.caja5{
+    color: #00051d;
+    width: 120px;
+    background:  #00051d;
+}
+   
+.caja7{
+    font-size: 30px;
+    color: white;
+    width: 1px;
+    height: 1px;
+            }
+
+hr{
+    height: 2px;
+    background: black;
+}

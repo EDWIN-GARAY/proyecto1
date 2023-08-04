@@ -1,0 +1,150 @@
+body{
+    background:  #00051d;
+    margin: 0;
+    padding: 0;
+}
+
+table, td{
+    padding: 7px;
+    border-collapse:collapse ;
+}
+
+.give{
+    width:100%;
+    height: 100%;
+    border-radius: 50%;
+    animation: hol 3s linear infinite;
+}
+
+
+@keyframes hol {
+    0%{
+        transform: rotate(8deg); 
+    }
+    50%{
+        transform: rotate(-8deg); 
+    }
+    100%{
+        transform: rotate(8deg); 
+    }
+    
+}
+
+div{
+   background-color: rgb(255, 255, 255);
+    border-radius: 50%;
+    width:150px;
+    height: 150px;
+}
+
+
+.uno{
+    padding: 0%;
+    background-image: url(cod.gif);;
+}
+
+.dos{
+    background-image: url(cod.gif);
+}
+.doss{
+    
+    margin: 15px;
+    text-align: center; 
+   font-size: 120px;
+   color: white;
+
+}
+
+.tres{
+    padding: 0;
+    margin: 0;
+}
+
+
+ul{width: 100%;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgb(34, 32, 32);
+}
+li{
+   
+    float: left;
+}
+
+li a{
+    font-family: sans-serif;
+    width: 117.8px;
+    display: block; 
+    color: white;
+    font-size: 20px;
+    text-align: center;
+    padding: 16px 16px;
+    text-decoration: none;
+}
+
+li a:hover:not(.list1){
+    transform: scale(1.2);
+    background-color: rgb(17, 16, 16);
+}
+
+.mii{
+    border: 5px solid red;
+}
+
+.michael{
+    background:  #00051d;
+    margin-top: 12px;
+    text-align: center;
+    width: 90%;
+    margin: 50px;
+    font-size: 25px;
+    color: white;
+}
+
+h2{
+    font-size: 50px;
+    font-family: Bahnschrift;
+    text-shadow: 1.5px 1.5px rgb(0, 255, 255),-1.5px -1.5px  rgb(0, 255, 255);
+    text-align: center;
+    animation: holaaa 1s linear infinite;
+}
+
+@keyframes holaaa {
+    0%{
+        transform: rotate(1deg); 
+    }
+    50%{
+        transform: rotate(-1deg); 
+    }
+    100%{
+        transform: rotate(1deg); 
+    }
+}
+
+h3{
+    font-size: 30px;
+    color: white;
+    text-shadow: 0px 0px 5px rgb(0, 0, 0); 
+    text-align: center;
+}
+
+.maybe{
+    border: 4px solid rgb(0, 255, 213);
+    width: 421px;
+   }
+
+.soñar{
+    border: 4px solid rgb(0, 255, 213);
+    width: 400px;
+}
+
+.getto{
+    border: 4px solid rgb(0, 255, 213);
+    width: 421px;
+}
+
+.look{
+    border: 2px solid rgb(255, 255, 255);
+}

@@ -1,0 +1,157 @@
+body{
+    margin: 0;
+    padding: 0;
+    background:  #00051d;
+}
+
+table, td{
+    
+    padding: 7px;
+    border-collapse:collapse ;
+}
+
+.give{
+
+    width:100%;
+    height: 100%;
+    border-radius: 50%;
+    animation: hol 3s linear infinite;
+}
+
+
+@keyframes hol {
+    0%{
+        transform: rotate(8deg); 
+    }
+    50%{
+        transform: rotate(-8deg); 
+    }
+    100%{
+        transform: rotate(8deg); 
+    }
+    
+}
+
+div{
+   background-color: rgb(255, 255, 255);
+    border-radius: 50%;
+    width:150px;
+    height: 150px;
+}
+
+
+.uno{
+    padding: 0%;
+    background-image: url(cod.gif);;
+}
+
+.dos{
+    background-image: url(cod.gif);
+}
+.doss{
+    
+    margin: 15px;
+    text-align: center; 
+   font-size: 120px;
+   color: white;
+
+}
+.tres{
+    padding: 0;
+    margin: 0;
+}
+
+
+ul{
+    font-family: sans-serif;
+    width: 100%;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgb(34, 32, 32);
+}
+li{
+   
+    float: left;
+}
+
+li a{
+ 
+    width: 117.8px;
+    display: block; 
+    color: white;
+    font-size: 20px;
+    text-align: center;
+    padding: 16px 16px;
+    text-decoration: none;
+}
+
+li a:hover:not(.list1){
+    transform: scale(1.2);
+    background-color: rgb(17, 16, 16);
+}
+
+.cinco{
+    
+    height: 120px;
+    width: 0x;
+}
+
+.seis{
+
+    width: 75%;
+}
+
+.siete{
+    padding: 40px;
+    height: 450px;
+    width: 400px;
+    transition: 1s ease ;
+    
+}
+
+.siete:hover{
+    transform: scale(1.2);
+}
+
+.letra{
+    background:  #00051d;
+    display: flex;
+    justify-content: center;
+}
+
+.letra-gira{
+text-decoration: none;
+font-size: 50px;
+}
+
+.letra-gira span{
+color: rgb(206, 176, 77);
+display: inline-block;
+position: relative;
+transform: rotateY(0deg);
+transition: transform 0.5s, color 0.5s;
+}
+
+.letra-gira:hover span{
+    color: rgb(206, 176, 77);  
+    transform: rotateY(360deg);
+    text-shadow: 2px 2px red;
+}
+
+.letra-gira:hover span:first-child{
+    transition-delay:0s;
+}
+
+.ocho{
+    color: white;
+    text-align: justify;
+    margin: 1px;
+    font-size: 20px;
+    padding: 0px;
+}
+
+.nueve{
+    padding: 100px;
+}
